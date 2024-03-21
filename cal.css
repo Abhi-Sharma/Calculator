@@ -30,8 +30,8 @@ button.sim {
     cursor: pointer;
 }
 .btn{
-    width: 19%;
-    height: 300px;
+    width: 20%;
+    height: 405px; 
     font-size: 21px;
     display: flex;
     flex-direction: row;

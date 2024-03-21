@@ -84,5 +84,10 @@ btnMul.addEventListener("click",()=>{
 let btnEqual = document.querySelector(".equal")
 btnEqual.addEventListener("click",()=>{
      let evalValue = eval(number.innerHTML);
-     result.innerHTML = evalValue;
+     number.innerHTML = evalValue;
 });
+
+let btnCross = document.querySelector(".cross")
+btnCross.addEventListener("click",()=>{
+    number.innerText = number.innerText.slice(0, -1)
+})
